@@ -85,7 +85,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
@@ -370,7 +370,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -378,11 +378,42 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Alim",
-        "nets": [],
+        "nets": [
+          "+5V",
+          "GND",
+          "VCC"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 1.5,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Unconnected",
+        "nets": [
+          "unconnected-(J1-PadA5)",
+          "unconnected-(J1-PadA6)",
+          "unconnected-(J1-PadA7)",
+          "unconnected-(J1-PadA8)",
+          "unconnected-(J1-PadB5)",
+          "unconnected-(J1-PadB6)",
+          "unconnected-(J1-PadB7)",
+          "unconnected-(J1-PadB8)"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 1.0,
         "via_drill": 0.4,
         "wire_width": 6.0
       }
@@ -445,6 +476,10 @@
     [
       "852dabbf-de45-4470-8176-59d37a754407",
       ""
+    ],
+    [
+      "8aed9946-fbec-4ad9-ad42-a12ea0775cda",
+      "Power_supply"
     ],
     [
       "81d287ee-b1c9-4e98-8d66-e001cfe607e2",
