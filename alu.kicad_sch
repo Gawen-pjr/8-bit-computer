@@ -1,0 +1,26 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 7edc9030-db7b-43ac-a1b3-b87eeacb4c2d)
+
+  (paper "A4")
+
+  (title_block
+    (company "Devalgo")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 132.08 131.445) (size 27.94 22.86) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00006097072a)
+    (property "Sheet name" "OP-DISPLAY" (id 0) (at 132.08 130.7334 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "alu-op-display.kicad_sch" (id 1) (at 132.08 154.8896 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+)

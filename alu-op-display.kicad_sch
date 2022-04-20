@@ -1,0 +1,14 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 240e07e1-770b-4b27-894f-29fd601c924d)
+
+  (paper "A4")
+
+  (title_block
+    (company "Devalgo")
+  )
+
+  (lib_symbols
+  )
+
+)
